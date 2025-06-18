@@ -1,0 +1,14 @@
+[17-Jun-2025 17:50:30 America/Los_Angeles] PHP Warning:  Trying to access array offset on value of type null in /home/wincrsqb/public_html/inc/functions.php on line 1137
+[17-Jun-2025 17:50:30 America/Los_Angeles] PHP Warning:  Trying to access array offset on value of type null in /home/wincrsqb/public_html/inc/functions.php on line 1139
+[17-Jun-2025 18:09:36 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class "Parsedown" not found in /home/wincrsqb/public_html/inc/functions.php:2889
+Stack trace:
+#0 /home/wincrsqb/public_html/inc/mod/pages.php(2850): markdown()
+#1 /home/wincrsqb/public_html/mod.php(196): mod_edit_page()
+#2 {main}
+  thrown in /home/wincrsqb/public_html/inc/functions.php on line 2889
+[17-Jun-2025 18:09:52 America/Los_Angeles] PHP Fatal error:  Uncaught Error: Class "Parsedown" not found in /home/wincrsqb/public_html/inc/functions.php:2889
+Stack trace:
+#0 /home/wincrsqb/public_html/inc/mod/pages.php(2850): markdown()
+#1 /home/wincrsqb/public_html/mod.php(196): mod_edit_page()
+#2 {main}
+  thrown in /home/wincrsqb/public_html/inc/functions.php on line 2889
