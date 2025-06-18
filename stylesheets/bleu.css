@@ -1,0 +1,97 @@
+/**
+ * teto.css
+ * modification of vichan default miku.css
+ */
+body {
+	background: #ffffff url('img/fade-teto.png') top repeat-x;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #C2185B; /* deep pink */
+}
+
+a:link:hover, a:visited:hover {
+	color: #FF3366; /* bright pink hover */
+}
+
+a.post_no {
+	color: #000033;
+}
+
+.intro a.email span.name {
+	color: #C2185B;
+}
+
+.intro a.email:hover span.name {
+	color: #FF3366;
+}
+
+h2, div.title, h1 {
+	color: #CC3366; /* softened pink-red */
+}
+
+form table tr th {
+	background: #F8C0D8; /* light pink header */
+}
+
+div.banner {
+	background-color: #FF6F61; /* light red banner */
+}
+
+div.post.op hr {
+	border-color: #E8C0D8; /* light pink border */
+}
+
+.intro span.subject {
+	color: #CC3366;
+	font-weight: 800;
+}
+
+.intro span.name {
+	color: #CC3366;
+	font-weight: 800;
+}
+
+div.post.reply.highlighted {
+	background: #FFD1E8; /* very light pink */
+}
+
+div.post.reply {
+	background: #FFE4EC; /* pale pink */
+	border-color: #FF99AA; /* light red-pink border */
+}
+
+div.ban {
+	border: 1px solid #CC3366;
+}
+
+div.ban h2 {
+	background: #FFE4EC;
+	color: #CC3366;
+}
+
+div.pages {
+	color: #AA8899; /* muted pink-grey */
+	background: #FFE4EC;
+	border-right: 1px solid #FF99AA;
+	border-bottom: 1px solid #FF99AA;
+}
+
+hr {
+	border-color: #E8C0D8;
+}
+
+div.boardlist {
+	color: #CC3366;
+    background-color: rgba(255,204,230,0.2); /* light pink overlay */
+}
+
+.desktop-style div.boardlist:nth-child(1) {
+  text-shadow: #FFD1E8 1px 1px 1px, #FFD1E8 -1px -1px 1px; /* pink glow */
+}
+
+
+.desktop-style div.boardlist:nth-child(1):hover, .desktop-style div.boardlist:nth-child(1).cb-menu {
+  background-color: rgba(255,204,230,0.45); /* darker pink overlay on hover */
+}
